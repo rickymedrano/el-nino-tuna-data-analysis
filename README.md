@@ -1,4 +1,4 @@
-This is my data analysis and visualization project on relating fish take and temperature to monitor seasona migrations of tuna off the coast of California. Project was written in MATLAB. 
+This is my data analysis and visualization project on relating fish take and temperature to monitor seasonal migrations of tuna off the coast of California. Project was written in MATLAB. 
 Team: Ricky Medrano, Jazmin Horvet
 
 ### Introduction
@@ -72,21 +72,21 @@ Since verifying the data could not be transformed into a normal distribution, we
 | La Nada           | “Strong” El Niño | No                           | 5%        | 0.1015      | Rank Sum  |
 | La Nada           | “Weak” El Niño   | No                           | 5%        | 0.5644      | Rank Sum  |
 | La Nada           | “Strong” La Niña | No                           | 5%        | 0.5544      | Rank Sum  |
-| La Nada           | “Weak” La Niña   |<span style="color:red">**Yes** </span>                        | 5%        | 0.0186      | Rank Sum  |
+| La Nada           | “Weak” La Niña   | Yes:star:                    | 5%        | 0.0186      | Rank Sum  |
 | ||**SAN DIEGO**     |
 | “Strong” El Niño  | “Strong” La Niña | No                           | 5%        | 0.3190      | Sign Rank |
 | “Weak” El Niño    | “Weak” La Niña   | No                           | 5%        | 0.2542      | Sign Rank |
 | La Nada           | “Strong” El Niño | No                           | 5%        | 0.2132      | Rank Sum  |
 | La Nada           | “Weak” El Niño   | No                           | 5%        | 0.3727      | Rank Sum  |
 | La Nada           | “Strong” La Niña | No                           | 5%        | 0.4902      | Rank Sum  |
-| La Nada           | “Weak” La Niña   | <span style="color:red">**Yes** </span>                          | 5%        | 0.0231      | Rank Sum  |
+| La Nada           | “Weak” La Niña   | Yes:star:                    | 5%        | 0.0231      | Rank Sum  |
 | ||**LOS ANGELES**   |
 | “Strong” El Niño  | “Strong” La Niña | No                           | 5%        | 0.2968      | Sign Rank |
-| “Weak” El Niño    | “Weak” La Niña   | <span style="color:red">**Yes** </span>                         | 5%        | 0.0370      | Sign Rank |
+| “Weak” El Niño    | “Weak” La Niña   | Yes:star:                    | 5%        | 0.0370      | Sign Rank |
 | La Nada           | “Strong” El Niño | No                           | 5%        | 0.2037      | Rank Sum  |
 | La Nada           | “Weak” El Niño   | No                           | 5%        | 0.9516      | Rank Sum  |
 | La Nada           | “Strong” La Niña | No                           | 5%        | 0.5503      | Rank Sum  |
-| La Nada           | “Weak” La Niña   | <span style="color:red">**Yes** </span>                          | 5%        | 0.0095      | Rank Sum  |
+| La Nada           | “Weak” La Niña   | Yes:star:                    | 5%        | 0.0095      | Rank Sum  |
 | ||**SANTA BARBARA** |
 | “Strong” El Niño  | “Strong” La Niña | No                           | 5%        | 0.8644      | Sign Rank |
 | “Weak” El Niño    | “Weak” La Niña   | No                           | 5%        | 0.9602      | Sign Rank |
