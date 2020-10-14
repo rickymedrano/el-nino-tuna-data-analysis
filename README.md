@@ -4,6 +4,8 @@ Team: Ricky Medrano, Jazmin Horvet
 
 <p align="center">
   <img src="./figures/tuna.jpg">
+</p>
+<p align="center">
   USFWS under CC-BY-SA 2.0
 </p>
 
