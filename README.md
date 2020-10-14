@@ -1,5 +1,11 @@
 This is my data analysis and visualization project on relating fish take and temperature to monitor seasonal migrations of tuna off the coast of California. Project was written in MATLAB. 
+
 Team: Ricky Medrano, Jazmin Horvet
+
+<p align="center">
+  <img src="./figures/tuna.jpg">
+</p>
+U.S. Fish and Wildlife Service under CC-BY-SA 2.0
 
 ### Introduction
 
