@@ -3,9 +3,9 @@ This is my data analysis and visualization project on relating fish take and tem
 Team: Ricky Medrano, Jazmin Horvet
 
 <p align="center">
+  USFWS under CC-BY-SA 2.0
   <img src="./figures/tuna.jpg">
 </p>
-U.S. Fish and Wildlife Service under CC-BY-SA 2.0
 
 ### Introduction
 
