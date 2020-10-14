@@ -8,10 +8,10 @@ The El Niño/Southern Oscillation (ENSO) is an important coupled ocean-atmospher
 #####  #ELI5
 Can changes in tuna population related to El Niño be detected through fish caught at key ports along the coast of California?
 
-#####Dataset
+##### Dataset
 California Department of Fish and Game,  NOAA Environmental Research Division, Coastwatch. (2018). California Fish Market Catch Landings, Long List, 1928-2002, Monthly-- concatenated [Dataset]. Retrieved from https://coastwatch.pfeg.noaa.gov/erddap/tabledap/erdCAMarCatLM.html
 
-###Background
+### Background
 
 MEI data was pulled from NOAA Earth System Research Laboratory website. The data spans from 1950 until present but only monthly values from 1950 to 2002 were used as the ERDDAP fish data terminates in 2002. The MEI data is measured as a standard departure in a continuous interval from -2.2470 to 3.0080 and spans 636 months.
 
@@ -28,7 +28,7 @@ The below histogram shows the five ENSO categories we defined with “Strong” 
 With MEI values categorized, the corresponding tuna data was indexed and then vectorized into bins based on port location and overall fish catch across all six ports. This resulted in having tuna counts for each port during periods of “Strong” El Niño, “Strong” La Niña, “Weak” El Niño, “Weak” La Niña, and La Nada, and cumulative fish counts for each category across all ports. 
 
 
-###Results
+### Results
 Cumulative tuna catch data across all ports was aggregated for “Strong” and “Weak”  El Niño and La Niña to be compared visually. The above graph on the left shows more tuna was caught across the 64 months of “Strong” El Niño compared to the 64 months of “Strong” La Niña. The bar graph on the right shows the same trend of more tuna caught in the 159 months of “Weak” El Niño to the 159 months of “Weak” La Niña. 
 
 <p align="center">
@@ -59,7 +59,7 @@ This data was broken down further to see differences in average monthly tuna cat
 
 Average monthly tuna catches in Santa Barbara, Monterey, and San Francisco shows “Strong” La Niña being greater than the other four categories. In Eureka, all categories are almost equal with the exception of average monthly tuna catches being visually much lower for “Strong” El Niño. San Diego shows “Strong” El Niño monthly average tuna catch leading the four other categories while La Nada leads in Los Angeles. 
 
-#####Stats
+##### Stats
 
 Two different statistical tests were used to test our hypothesis. First, the data was binned into histograms and showed it was right-skewed. Numerous iterations were attempted to transform the data by moving down the powers, taking the log and adjusting for zero values, and taking the square root with a plus 0.5 adjustment to each value by assuming a Poisson distribution. After each of these data transformations, an Anderson-Darling test  was run in Matlab. All of the data transformations analyzed with the Anderson-Darling test failed to result in a normal distribution.
 Since verifying the data could not be transformed into a normal distribution, we used statistical tests for non-parametric data. For paired data comparison, we used the Wilcoxon Signed Rank test, and for independent data comparisons we used the Wilcoxon Sum Rank test. The following shows the results of our Wilcoxon tests where our hypothesis is that the fish count data in column 1 is significantly different than the fish count data in column 2.
@@ -116,7 +116,8 @@ Since verifying the data could not be transformed into a normal distribution, we
 | La Nada           | “Strong” La Niña | No                           | 5%        | 0.4144      | Rank Sum  |
 | La Nada           | “Weak” La Niña   | No                           | 5%        | 0.9308      | Rank Sum  |
 
-###Discussion
+### Discussion
+
 Data analysis of tuna caught at six ports in California from 1950-2002 yielded partial visual confidence in our hypothesis through our plots that we generated in MatLab. Visualizing cumulative tuna data from all ports in our graphs shows more tuna was caught in “Strong” El Niño periods compared to “Strong” La Niña periods, likewise with “Weak” El Niño periods compared to “Weak” La Niña periods. This was also evident in the two most southern ports of San Diego and Los Angeles. However, the four ports to the north, Santa Barbara, Monterey, San Francisco, and Eureka demonstrated visually that more tuna was caught in the “Strong” and “Weak” La Niña periods compared to the “Strong” and “Weak” El Niño periods, respectively. 
 
 Direct comparisons between “Strong”, “Weak”, and La Nada periods was not possible with cumulative fish counts as those periods did not contain the same amount of months worth of fish catch data. A monthly average tuna count was calculated instead to compare with a pie and bar chart. We see in the pie chart that monthly average tuna catch was highest during the “Strong” El Niño periods, although the same percentage was seen for the control group La Nada. The bar graph breaks down monthly average tuna catch for each ENSO category by port. None of the ports demonstrate any kind of trend visually amongst these categories other than much more tuna overall was caught at the two most southern ports of San Diego and Los Angeles compared to the other four ports to the north.  
