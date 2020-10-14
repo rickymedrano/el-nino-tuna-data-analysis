@@ -3,8 +3,8 @@ This is my data analysis and visualization project on relating fish take and tem
 Team: Ricky Medrano, Jazmin Horvet
 
 <p align="center">
-  USFWS under CC-BY-SA 2.0
   <img src="./figures/tuna.jpg">
+  USFWS under CC-BY-SA 2.0
 </p>
 
 ### Introduction
